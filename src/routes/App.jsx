@@ -27,9 +27,7 @@ const App = ()=>{
 			<Route exact path="/new-password" element={<NewPassword/>} />		
 			<Route exact path="/account" element={< MyAccount/>} />		
 			<Route exact path="/signup" element={< CreateAccount/>} />		
-			<Route exact path="/checkout" element={< CheckOut/>} />		
-
-			
+			<Route exact path="/checkout" element={< CheckOut/>} />			
 			<Route exact path="/orders" element={<MyOrder />} />
 			<Route exact path="/details" element={<ProductDetails />} />		
 		

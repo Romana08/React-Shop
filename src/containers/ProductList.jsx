@@ -1,12 +1,14 @@
 import React from "react";
+import ProductItem from "../componentes/ProductItems";
+import '../styles/ProductList.scss';
 
 const ProductList = () =>{
     return(
-        <div>
-            <h1>
-                Lista de Produtos
-            </h1>
-        </div>
+        <section className="main-container">
+			<div className="ProductList">
+				<ProductItem />
+			</div>
+		</section>
     )
 }
 

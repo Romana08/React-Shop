@@ -1,10 +1,14 @@
 import React from "react";
+import ProductInfo from "../componentes/ProductIno";
 
 const ProductDetails = () =>{
     return(
-        <div>
-            <h1>Detalles del Producto</h1>
-        </div>
+        <aside className="ProductDetail">
+			<div className="ProductDetail-close">
+				<img src="./icons/icon_close.png" alt="close" />
+			</div>
+			<ProductInfo />
+		</aside>
     )
 }
 export default ProductDetails;

@@ -1,5 +1,6 @@
 import React from "react";
 import OrderItem from "../componentes/OrderItem";
+import '../styles/Checkout.scss';
 
 const CheckOut = () =>{
     return(
